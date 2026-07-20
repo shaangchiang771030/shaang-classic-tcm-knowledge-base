@@ -49,8 +49,7 @@ export default defineConfig({
   },
   { label: 'Components', autogenerate: { directory: 'components' } },
 ],
-  { label: 'Components', autogenerate: { directory: 'components' } },
-],
+
     }), // 👈 關鍵修正！把原本漏掉的 }) 和逗號補回來，完美關閉 starlight 設定
     keystatic(),
     react(),
