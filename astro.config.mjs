@@ -30,10 +30,9 @@ export default defineConfig({
       
 	  sidebar: [
   { label: 'Overview', link: '/overview' },
-  // 👇 加上下面這段，讓系統自動去根目錄抓取這 30 篇提煉自天人之學的文章
   { 
     label: '天人之學：時空篇 (30個核心概念)', 
-    autogenerate: { directory: '' } 
+    autogenerate: { directory: 'concept' } // 👈 請確保這裡寫的是 'concept'，不是複數的 'concepts' 哦！
   },
   { label: 'Components', autogenerate: { directory: 'components' } },
 ]
