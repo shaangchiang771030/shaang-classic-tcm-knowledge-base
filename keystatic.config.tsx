@@ -12,9 +12,14 @@ import tabsSchema from 'src/content/docs/components/tabs-schema';
 import { frontmatterSchema } from 'src/content/docs/frontmatter-schema';
 
 export default config({
-  storage: {
-    kind: 'local',
-  },
+  storage: process.env.NODE_ENV === 'production'
+    ? {
+        kind: 'github',
+        repo: 'shaangchiang771030/shaang-classic-tcm-knowledge-base',
+      }
+    : {
+        kind: 'local',
+      },
   ui: {
     brand: {
       name: 'Starlight',
