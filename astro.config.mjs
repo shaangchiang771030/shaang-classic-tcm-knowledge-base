@@ -27,14 +27,23 @@ export default defineConfig({
         Is there a way to "watch" a specific file for 
         change and trigger a server restart?
       */
+
       sidebar: [
-        { label: 'Overview', link: '/overview' },
-        { 
-          label: '天人之學：時空篇 (30個核心概念)', 
-          autogenerate: { directory: 'concept' }
-        },
-        { label: 'Components', autogenerate: { directory: 'components' } },
-      ],
+  { label: 'Overview', link: '/overview' },
+  {
+    label: '天人之學：時空篇 (30個核心概念)',
+    autogenerate: { directory: 'concept' },
+  },
+  {
+    label: '天人之學：經方篇 (30個核心概念)',
+    autogenerate: { directory: 'jingfang_concept' },
+  },
+  {
+    label: '天人之學：藥物篇 (30個核心概念)',
+    autogenerate: { directory: 'drug_concept' },
+  },
+  { label: 'Components', autogenerate: { directory: 'components' } },
+],
     }), // 👈 關鍵修正！把原本漏掉的 }) 和逗號補回來，完美關閉 starlight 設定
     keystatic(),
     react(),
