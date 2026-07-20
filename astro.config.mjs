@@ -28,11 +28,16 @@ export default defineConfig({
         change and trigger a server restart?
       */
 
+
       sidebar: [
   { label: 'Overview', link: '/overview' },
   {
     label: '天人之學：時空篇 (30個核心概念)',
     autogenerate: { directory: 'concept' },
+  },
+  {
+    label: '天人之學：氣化生理篇 (30個核心概念)',
+    autogenerate: { directory: 'qihua_physiology_concept' },
   },
   {
     label: '天人之學：經方篇 (30個核心概念)',
@@ -42,6 +47,8 @@ export default defineConfig({
     label: '天人之學：藥物篇 (30個核心概念)',
     autogenerate: { directory: 'drug_concept' },
   },
+  { label: 'Components', autogenerate: { directory: 'components' } },
+],
   { label: 'Components', autogenerate: { directory: 'components' } },
 ],
     }), // 👈 關鍵修正！把原本漏掉的 }) 和逗號補回來，完美關閉 starlight 設定
