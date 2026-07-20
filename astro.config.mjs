@@ -27,17 +27,16 @@ export default defineConfig({
         Is there a way to "watch" a specific file for 
         change and trigger a server restart?
       */
-      sidebar: [
-				{
-					slug: 'index',
-				},
-				{
-					label: 'Components',
-					autogenerate: { directory: 'components' },
-					collapsed: false
-				},
-			],
-    }),
+      
+	  sidebar: [
+  { label: 'Overview', link: '/overview' },
+  // 👇 加上下面這段，讓系統自動去根目錄抓取這 30 篇提煉自天人之學的文章
+  { 
+    label: '天人之學：時空篇 (30個核心概念)', 
+    autogenerate: { directory: '' } 
+  },
+  { label: 'Components', autogenerate: { directory: 'components' } },
+]
     keystatic(),
     react(),
     AutoImport({
