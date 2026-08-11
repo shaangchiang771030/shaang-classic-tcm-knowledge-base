@@ -32,23 +32,27 @@ export default defineConfig({
       sidebar: [
   { label: 'Overview', link: '/overview' },
   {
-    label: '天人之學：時空篇 (30個核心概念)',
+    label: '天人之學：時空篇',
     autogenerate: { directory: 'concept' },
   },
   {
-    label: '天人之學：氣化生理篇 (30個核心概念)',
+    label: '天人之學：氣化生理篇',
     autogenerate: { directory: 'qihua_physiology_concept' },
   },
   {
-    label: '天人之學：經方篇 (30個核心概念)',
+    label: '天人之學：經方篇',
     autogenerate: { directory: 'jingfang_concept' },
   },
   {
-    label: '天人之學：藥物篇 (30個核心概念)',
+    label: '天人之學：藥物篇',
     autogenerate: { directory: 'drug_concept' },
   },
   {
-  label: '天人之學：扁鵲鏡經篇 (60個核心概念)',
+    label: '天人之學：針灸篇',
+    autogenerate: { directory: 'acupuncture_concept' },
+  },
+  {
+  label: '天人之學：扁鵲鏡經篇',
   autogenerate: { directory: 'Mirror_Classic _of_Bian_Que' },
   },
 
