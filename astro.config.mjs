@@ -47,6 +47,10 @@ export default defineConfig({
     label: '天人之學：藥物篇 (30個核心概念)',
     autogenerate: { directory: 'drug_concept' },
   },
+  {
+  label: '天人之學：扁鵲鏡經篇 (60個核心概念)',
+  autogenerate: { directory: 'Mirror_Classic _of_Bian_Que' },
+  },
   { label: 'Components', autogenerate: { directory: 'components' } },
 ],
 
