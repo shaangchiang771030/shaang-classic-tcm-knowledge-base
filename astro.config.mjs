@@ -51,7 +51,7 @@ export default defineConfig({
   label: '天人之學：扁鵲鏡經篇 (60個核心概念)',
   autogenerate: { directory: 'Mirror_Classic _of_Bian_Que' },
   },
-  { label: 'Components', autogenerate: { directory: 'components' } },
+
 ],
 
     }), // 👈 關鍵修正！把原本漏掉的 }) 和逗號補回來，完美關閉 starlight 設定
