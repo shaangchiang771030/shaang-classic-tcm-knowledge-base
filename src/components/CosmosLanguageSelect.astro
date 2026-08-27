@@ -1,22 +1,65 @@
 ---
-import { isEnglishReady } from '../data/i18n-status';
-const raw = Astro.url.pathname || '/';
-const isEn = raw === '/en' || raw.startsWith('/en/');
-let zhPath = raw;
-if (isEn) {
-  zhPath = raw.replace(/^\/en(?=\/|$)/, '') || '/';
+import {
+  isEnglishReady,
+  isFourLanguageReady,
+  normalizeContentPath,
+  type CosmosLocale,
+} from '../data/i18n-status';
+
+const rawPath = normalizeContentPath(Astro.url.pathname || '/');
+
+function currentLocale(path: string): CosmosLocale {
+  if (path === '/zh-cn/' || path.startsWith('/zh-cn/')) return 'zh-cn';
+  if (path === '/en/' || path.startsWith('/en/')) return 'en';
+  if (path === '/ja/' || path.startsWith('/ja/')) return 'ja';
+  return 'zh-tw';
 }
-if (raw.startsWith('/en/coming-soon')) {
+
+function stripLocalePrefix(path: string) {
+  const stripped = path.replace(/^\/(?:zh-cn|en|ja)(?=\/|$)/, '') || '/';
+  return normalizeContentPath(stripped);
+}
+
+function withLocalePrefix(locale: Exclude<CosmosLocale, 'zh-tw'>, basePath: string) {
+  const base = normalizeContentPath(basePath);
+  return base === '/' ? `/${locale}/` : `/${locale}${base}`;
+}
+
+const locale = currentLocale(rawPath);
+let basePath = stripLocalePrefix(rawPath);
+
+// Preserve the old English coming-soon recovery path so legacy links never strand the user.
+if (rawPath.startsWith('/en/coming-soon/')) {
   const from = Astro.url.searchParams.get('from');
-  if (from && from.startsWith('/')) zhPath = from;
+  if (from && from.startsWith('/')) basePath = normalizeContentPath(from);
 }
-const normalizedZh = zhPath.length > 1 && !zhPath.endsWith('/') ? `${zhPath}/` : zhPath;
-const enHref = isEnglishReady(normalizedZh)
-  ? (normalizedZh === '/' ? '/en/' : `/en${normalizedZh}`)
-  : `/en/coming-soon/?from=${encodeURIComponent(normalizedZh)}`;
+
+const fourReady = isFourLanguageReady(basePath);
+const englishReady = isEnglishReady(basePath);
+
+const zhTwHref = basePath;
+const zhCnHref = fourReady ? withLocalePrefix('zh-cn', basePath) : null;
+const enHref = englishReady
+  ? withLocalePrefix('en', basePath)
+  : `/en/coming-soon/?from=${encodeURIComponent(basePath)}`;
+const jaHref = fourReady ? withLocalePrefix('ja', basePath) : null;
+
+const disabledTitle = '此頁目前尚無對應版本';
 ---
 <nav class="cosmos-language" aria-label="Language / 語言">
-  <a href={zhPath} aria-current={!isEn ? 'page' : undefined}>中文</a>
-  <span aria-hidden="true">|</span>
-  <a href={enHref} aria-current={isEn && !raw.startsWith('/en/coming-soon') ? 'page' : undefined}>EN</a>
+  <a href={zhTwHref} title="繁體中文" aria-current={locale === 'zh-tw' ? 'page' : undefined}>繁體</a>
+  <span aria-hidden="true">/</span>
+  {zhCnHref ? (
+    <a href={zhCnHref} title="简体中文" aria-current={locale === 'zh-cn' ? 'page' : undefined}>简体</a>
+  ) : (
+    <span aria-disabled="true" title={disabledTitle} style="opacity:.42;cursor:default">简体</span>
+  )}
+  <span aria-hidden="true">/</span>
+  <a href={enHref} title="English" aria-current={locale === 'en' && !rawPath.startsWith('/en/coming-soon/') ? 'page' : undefined}>EN</a>
+  <span aria-hidden="true">/</span>
+  {jaHref ? (
+    <a href={jaHref} title="日本語" aria-current={locale === 'ja' ? 'page' : undefined}>日文</a>
+  ) : (
+    <span aria-disabled="true" title={disabledTitle} style="opacity:.42;cursor:default">日文</span>
+  )}
 </nav>

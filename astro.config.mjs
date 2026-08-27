@@ -1,4 +1,4 @@
-﻿// @ts-check
+// @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import keystatic from '@keystatic/astro';
@@ -18,8 +18,10 @@ export default defineConfig({
       },
       defaultLocale: 'root',
       locales: {
-        root: { label: '中文', lang: 'zh-TW' },
-        en: { label: 'English', lang: 'en' },
+        root: { label: '繁體', lang: 'zh-TW' },
+        'zh-cn': { label: '简体', lang: 'zh-CN' },
+        en: { label: 'EN', lang: 'en' },
+        ja: { label: '日文', lang: 'ja' },
       },
       customCss: ['./src/styles/cosmos-order.css'],
       components: {
