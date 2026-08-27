@@ -1,0 +1,21 @@
+{
+  "locale": "zh-CN",
+  "article_markdown_count": 178,
+  "language_frontmatter_correct": 178,
+  "translationKey_unique": 178,
+  "traditional_locale_pairs": 178,
+  "missing_translationKeys": [],
+  "extra_translationKeys": [],
+  "filename_suffix_correct": 178,
+  "numbered_filename_count": 0,
+  "slug_unique": 178,
+  "slug_prefix_correct": 178,
+  "image_url_mismatch_count": 0,
+  "image_url_mismatch_keys": [],
+  "domain_guides_present": 6,
+  "research_landing_present": true,
+  "article_links_present_in_guides": 178,
+  "missing_guide_article_links": [],
+  "placeholder_markers": [],
+  "overall_status": "PASS"
+}
