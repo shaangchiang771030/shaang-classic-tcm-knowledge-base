@@ -1,0 +1,178 @@
+src/content/docs/en/concept/01-第一性原理的經典萃取_英文.md
+src/content/docs/en/concept/02-以簡馭繁的模型化原則_英文.md
+src/content/docs/en/concept/06-奧卡姆剃刀法則的有效性_英文.md
+src/content/docs/en/concept/09-以外揣內與不可見本質的驗證_英文.md
+src/content/docs/en/concept/10-正確歷法的時間刻度規律_英文.md
+src/content/docs/en/concept/03-符號化能量共振原則_英文.md
+src/content/docs/en/concept/04-全息規律的世界映射_英文.md
+src/content/docs/en/concept/05-空間全息映射規律_英文.md
+src/content/docs/en/concept/08-常變原則的擬合規律_英文.md
+src/content/docs/en/concept/07-跨尺度技術搭配原則_英文.md
+src/content/docs/en/concept/11-年尺度陰陽時間模型_英文.md
+src/content/docs/en/concept/12-日尺度陰陽時間模型_英文.md
+src/content/docs/en/concept/13-人體陰陽空間幾何對稱模型_英文.md
+src/content/docs/en/concept/14-天地的陰陽空間模型_英文.md
+src/content/docs/en/concept/15-四象時間模型（陰陽互含規律）_英文.md
+src/content/docs/en/concept/16-月相四象變化模型_英文.md
+src/content/docs/en/concept/17-五行相生年尺度模型_英文.md
+src/content/docs/en/concept/18-天干十日五行時間週期模型_英文.md
+src/content/docs/en/concept/19-五行中土空間模型_英文.md
+src/content/docs/en/concept/20-五行相剋洛書一筆畫模型_英文.md
+src/content/docs/en/concept/21-五行互涵模型（體質與藥精細分）_英文.md
+src/content/docs/en/concept/23-三陰三陽年尺度主氣模型_英文.md
+src/content/docs/en/concept/27-二十四節氣拆分模型_英文.md
+src/content/docs/en/concept/22-三陰三陽年尺度客氣變化模型_英文.md
+src/content/docs/en/concept/24-三陰三陽地支十二日時間模型_英文.md
+src/content/docs/en/concept/25-三陰三陽日尺度預解時模型_英文.md
+src/content/docs/en/concept/26-三陰三陽人體空間分佈模型（陰陽離合規律）_英文.md
+src/content/docs/en/concept/29-九宮八風空間與診法模型_英文.md
+src/content/docs/en/concept/28-五六相合時空整合模型_英文.md
+src/content/docs/en/concept/30-能量運動的疊加與干預原則_英文.md
+src/content/docs/en/qihua_physiology_concept/01-醫者明理與天人氣化總綱_英文.md
+src/content/docs/en/qihua_physiology_concept/02-一氣陰陽清濁與中氣樞軸_英文.md
+src/content/docs/en/qihua_physiology_concept/03-四象五行與春夏秋冬節律_英文.md
+src/content/docs/en/qihua_physiology_concept/04-脾胃中土與人體五行生成_英文.md
+src/content/docs/en/qihua_physiology_concept/05-探源圖解與天地人氣化總圖_英文.md
+src/content/docs/en/qihua_physiology_concept/07-水火徵兆與上下左右道路_英文.md
+src/content/docs/en/qihua_physiology_concept/08-生長收藏與五臟情志節律_英文.md
+src/content/docs/en/qihua_physiology_concept/09-六氣主時與年度氣候分段_英文.md
+src/content/docs/en/qihua_physiology_concept/10-司天在泉與上下半年氣候_英文.md
+src/content/docs/en/qihua_physiology_concept/11-天符歲會太乙天符與運氣疊加_英文.md
+src/content/docs/en/qihua_physiology_concept/12-人生之始與祖氣成形_英文.md
+src/content/docs/en/qihua_physiology_concept/13-五臟六腑功能網路總論_英文.md
+src/content/docs/en/qihua_physiology_concept/16-脾胃中央運化與太倉輸布_英文.md
+src/content/docs/en/qihua_physiology_concept/15-肝膽風木謀慮與中正決斷_英文.md
+src/content/docs/en/qihua_physiology_concept/14-心與小腸君火神明與化物生血_英文.md
+src/content/docs/en/qihua_physiology_concept/17-肺大腸制節宣降與傳導_英文.md
+src/content/docs/en/qihua_physiology_concept/18-腎膀胱水藏津液與氣化出入_英文.md
+src/content/docs/en/qihua_physiology_concept/19-心包三焦相火臣使與水道膜網_英文.md
+src/content/docs/en/qihua_physiology_concept/20-臟腑部位形象與內外連網_英文.md
+src/content/docs/en/qihua_physiology_concept/21-十二經相交與如環無端_英文.md
+src/content/docs/en/qihua_physiology_concept/22-衝任督帶與先後天交會_英文.md
+src/content/docs/en/qihua_physiology_concept/23-六經解與十二經由六氣統攝_英文.md
+src/content/docs/en/qihua_physiology_concept/29-六經開闔樞與審證大關鍵_英文.md
+src/content/docs/en/qihua_physiology_concept/24-六氣解與主令化氣盛衰_英文.md
+src/content/docs/en/qihua_physiology_concept/25-營氣運行與脈中日夜五十周_英文.md
+src/content/docs/en/qihua_physiology_concept/26-衛氣出入與寤寐防衛節律_英文.md
+src/content/docs/en/qihua_physiology_concept/27-男女天癸與生命長周期_英文.md
+src/content/docs/en/qihua_physiology_concept/28-血氣精神與養生協調總論_英文.md
+src/content/docs/en/qihua_physiology_concept/06-陰陽變化與治病求本_英文.md
+src/content/docs/en/qihua_physiology_concept/30-本標中氣與外感病機整合_英文.md
+src/content/docs/en/jingfang_concept/01-經方之經的古天文幾何軌道本質_英文.md
+src/content/docs/en/jingfang_concept/02-十六字食療之秘與物成味定原則_英文.md
+src/content/docs/en/jingfang_concept/03-五味中土空間模型與五入親和性_英文.md
+src/content/docs/en/jingfang_concept/04-天干配五行之時間雙向調控模型_英文.md
+src/content/docs/en/jingfang_concept/05-空間模型之克位與扶位矩陣向量_英文.md
+src/content/docs/en/jingfang_concept/06-藏氣法時論天干五行望相衰求死週期_英文.md
+src/content/docs/en/jingfang_concept/07-五臟五欲與時間模型補瀉聖化規則_英文.md
+src/content/docs/en/jingfang_concept/08-緩急收散之五苦時間干預模型_英文.md
+src/content/docs/en/jingfang_concept/09-司天與在泉的摩天輪六氣輪轉機制_英文.md
+src/content/docs/en/jingfang_concept/11-歲運司天輪值之土地物候味道偏向性_英文.md
+src/content/docs/en/jingfang_concept/12-六氣X七大運動家族_英文.md
+src/content/docs/en/jingfang_concept/20-五行位之主與三陰三陽主氣時間先後治法_英文.md
+src/content/docs/en/jingfang_concept/13-司天六氣所勝的治味結構_英文.md
+src/content/docs/en/jingfang_concept/14-在泉六氣淫於內的治法結構_英文.md
+src/content/docs/en/jingfang_concept/15-邪氣反勝於地的治法結構_英文.md
+src/content/docs/en/jingfang_concept/16-司天邪勝的治法結構_英文.md
+src/content/docs/en/jingfang_concept/17-六氣之勝的治法結構_英文.md
+src/content/docs/en/jingfang_concept/18-六氣之復的治法結構_英文.md
+src/content/docs/en/jingfang_concept/19-六氣之客的治法結構_英文.md
+src/content/docs/en/jingfang_concept/21-客氣值日補瀉與辛酸化甘口訣源頭_英文.md
+src/content/docs/en/jingfang_concept/22-《六元正紀大論》六十甲子食療生數成數模型導論與核心定義_英文.md
+src/content/docs/en/jingfang_concept/23-2天之氣與地之氣的時空模型選用總綱_英文.md
+src/content/docs/en/drug_concept/01-本草漁網與正本清源_英文.md
+src/content/docs/en/drug_concept/02-本草求真的三維符號化收斂_英文.md
+src/content/docs/en/drug_concept/03-臟腑辨證興起與三陰三陽退隱_英文.md
+src/content/docs/en/drug_concept/04-六淫痰積氣血與標本主次_英文.md
+src/content/docs/en/drug_concept/05-多標籤藥物與選方困境_英文.md
+src/content/docs/en/drug_concept/09-症狀專病辨證的捷徑與限制_英文.md
+src/content/docs/en/drug_concept/12-神農本草經破解總綱_英文.md
+src/content/docs/en/drug_concept/13-藥名之象與命名推理_英文.md
+src/content/docs/en/drug_concept/14-五氣五味與性味定位_英文.md
+src/content/docs/en/drug_concept/15-形體之體與以形治形_英文.md
+src/content/docs/en/drug_concept/16-升降浮沉與春夏秋冬_英文.md
+src/content/docs/en/drug_concept/17-清濁密度與起效速度_英文.md
+src/content/docs/en/drug_concept/18-採收時節與天地禀賦_英文.md
+src/content/docs/en/drug_concept/19-徐靈胎因果箭頭解讀法_英文.md
+src/content/docs/en/drug_concept/21-內經病症規則庫與以經解經_英文.md
+src/content/docs/en/drug_concept/06-AI輔助古籍因果提取法_英文.md
+src/content/docs/en/drug_concept/20-本草綱領的分類框架驗證_英文.md
+src/content/docs/en/drug_concept/22-張志聰本草崇原與禀賦提煉_英文.md
+src/content/docs/en/drug_concept/23-白朮補益脾土與標本分層_英文.md
+src/content/docs/en/drug_concept/24-甘草五臟六腑與不偏之性_英文.md
+src/content/docs/en/drug_concept/25-桂枝枝形通道與上下氣交通_英文.md
+src/content/docs/en/drug_concept/26-黃芩陽明太陰與清熱範圍_英文.md
+src/content/docs/en/drug_concept/27-附子細辛與少陰太陽標本_英文.md
+src/content/docs/en/drug_concept/28-葛根杜仲與形態經脈推演_英文.md
+src/content/docs/en/drug_concept/29-神農本草三百六十味的時空分佈_英文.md
+src/content/docs/en/drug_concept/07-內經時空模型作為藥物總座標_英文.md
+src/content/docs/en/drug_concept/08-朱進忠臨床用藥三十三視角_英文.md
+src/content/docs/en/drug_concept/10-藥量辨證與經方劑量設計_英文.md
+src/content/docs/en/drug_concept/11-比例辨證與方中作用層位_英文.md
+src/content/docs/en/drug_concept/30-醫家取舍與經典自洽判準_英文.md
+src/content/docs/en/acupuncture_concept/01-穴位也許不是點-針灸甲乙經裡隱藏的相位控制圖_英文.md
+src/content/docs/en/acupuncture_concept/02-三條幾何語法-為什麼能回溯近九成甲乙經穴位主治_英文.md
+src/content/docs/en/acupuncture_concept/03-一個腳上的穴-為什麼會治頭與咽喉-遠端取穴的幾何答案_英文.md
+src/content/docs/en/acupuncture_concept/04-井滎輸經合不是五個古老名詞-它們可能是一套邊界控制棧_英文.md
+src/content/docs/en/acupuncture_concept/05-六氣真的寫在經絡相位上嗎-風寒濕火窗口與一個意外漏洞_英文.md
+src/content/docs/en/acupuncture_concept/06-風池為什麼叫風池-古人穴名可能不是詩意而是壓縮碼_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/01-氣真的可以被測量嗎-扁鵲鏡經的第一把鑰匙_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/02-一呼一吸之間-什麼叫平人一息_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/03-一息脈五動氣行六寸-古人怎樣把氣化變成數字_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/04-寸不是公分-骨度如何成為人體自己的尺_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/05-從六寸到二十二丈三尺六寸-氣如何走完人體一周_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/06-人體為什麼要和一天對時-十二辰百刻與五十營_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/07-脈為什麼有快慢長短-一動一寸五分的意義_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/08-音息脈其實是同一件事的不同投影_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/09-人為什麼有自己的稟音_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/10-甬宮商角徵羽穌-人體聲音的七層尺度_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/11-一音十分-正少眾開判質虞加太上_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/12-古人的音高不是高低而已-十分度在量什麼_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/13-安孚躬彁執淩解變隨盉從哪裡來_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/14-為什麼同一個安還要分左右_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/15-從十音到兩千一百音-為什麼需要這麼大的狀態空間_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/16-六十首到底是什麼-它不是六十首音樂_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/17-十二律為什麼會進入人體-六經與十二律的配對_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/18-六經不是六條線-經緯樞持與四維_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/19-十二律如何變成七十二舍_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/20-順六十首與逆六十首-氣化不是靜態表格_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/21-首到底是什麼-為什麼診斷一定要先立首_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/22-首與舍-從一個狀態碼推出氣往哪裡走_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/23-走路為什麼是右手配左腳-鏡經的交叉經絡觀_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/24-溪谷節舍-氣到底在哪裡交換_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/25-謙歸藏生動長育止壴-九氣是一條生命循環_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/26-專勝兼並通和-氣與氣相遇的六種基本關係_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/27-一個人同時有三層音-稟受由行與差移_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/28-八舍真正記錄的是什麼-十二經如何跨手足配對_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/29-七十二舍與七十三舍-位置與運動只差一個數字_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/30-從謙歸黃鐘看完整氣化鏈-三焦募原與沖任督蹺_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/31-什麼叫通天-人不是封閉系統_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/32-天有六氣地有六味人有情志-三種輸入如何進入同一系統_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/33-專勝兼並通和-跨自然與人體的六態模型_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/34-兩種味相遇會發生什麼-十五種味化組合_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/35-情緒也有合成效應-十五種五志之化_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/36-精食氣形食味-形氣精如何互相轉換_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/37-風雷谷雨川海天真-九氣如何落到臟腑_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/38-人體有多少個海-鏡經的全身交換網路_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/39-寸關尺其實不只三格-什麼是二十七候_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/40-周差進斷毅悅昆斂致-二十七個名字到底在標什麼_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/41-怎樣讀懂一句謙歸周質安黃鐘_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/42-一舍三候一候八舍-候和舍不是同一件事_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/43-五十營怎樣穿過二十七候-從單點脈診變成時間序列_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/44-什麼是奇恒-異常必須從正常模型中定義_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/46-寸口和脈口不是一回事-三寸九野與二十七候_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/45-氣口為什麼要量三寸-寸關尺是三種來源的氣_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/47-脈不是一條線-波湧隴起與三六九分_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/48-黃鐘六十分與蕤賓五十三分-怎樣從正常脈律發現偏移_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/49-什麼叫揆度-鏡經真正的診斷算法從這裡開始_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/50-當位與應位-疾病是氣在哪裡失去關係_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/51-五臟穿鑿-為什麼心可與多個腑相通_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/52-六經的深淺真的有數字-六分五分四分_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/53-十二律的長度如何計算-音分度乘舍分度_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/54-三十七條經隧有多長-鏡經的人體幾何總圖_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/55-少陰之人-為什麼四動也可以是正常_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/56-太陰之人-三出一入與九分之脈_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/57-厥陰之人-四出一入與三分之脈_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/58-少陽之人-再入一出與徐息_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/59-陽明之人-三入一出與三分湧躍_英文.md
+src/content/docs/en/Mirror_Classic _of_Bian_Que/60-太陽之人-四入一出與鏡經的個體化醫學_英文.md

@@ -1,6 +1,6 @@
 // English availability registry.
-// Structural English pages plus all 178 published English research articles.
-// Generated from data/architecture/English_Route_Plan.csv.
+// Article availability is keyed by the stable Chinese public path, not by physical Markdown filenames.
+// 178 translated research articles are ready.
 export const ENGLISH_READY_PATHS = new Set([
   "/",
   "/research/",
