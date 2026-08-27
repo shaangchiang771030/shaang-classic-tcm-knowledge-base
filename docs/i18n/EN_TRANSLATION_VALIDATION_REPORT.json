@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "summary": {
+    "english_markdown_count": 178,
+    "language_en_count": 178,
+    "unique_translation_keys": 178,
+    "source_translation_keys": 178,
+    "paired_translation_keys": 178,
+    "filename_policy_pass_count": 178,
+    "unique_clean_slugs": 178,
+    "image_reference_pairs_checked": 178,
+    "image_mismatch_count": 0,
+    "route_plan_rows": 178,
+    "i18n_ready_article_paths_present": 178,
+    "domain_counts": {
+      "acupuncture": 6,
+      "bianque-mirror": 60,
+      "qihua-physiology": 30,
+      "materia-medica": 30,
+      "spacetime": 30,
+      "jingfang": 22
+    }
+  },
+  "issues": [],
+  "details": {
+    "language_failures": [],
+    "filename_failures": [],
+    "image_mismatches": [],
+    "route_failures": [],
+    "missing_i18n_ready_paths": [],
+    "bad_plan_status": [],
+    "bad_plan_filename_policy": []
+  }
+}
