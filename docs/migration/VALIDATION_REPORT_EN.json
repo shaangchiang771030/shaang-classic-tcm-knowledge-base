@@ -1,0 +1,48 @@
+{
+  "package": "CosmosOrder_EN_CleanTitles_ReorderedGuides_v1",
+  "source_articles": 178,
+  "domains": {
+    "spacetime": 30,
+    "qihua-physiology": 30,
+    "jingfang": 22,
+    "materia-medica": 30,
+    "acupuncture": 6,
+    "bianque-mirror": 60
+  },
+  "translation_key_pairing": 178,
+  "guide_link_coverage_zh": {
+    "spacetime": 30,
+    "qihua-physiology": 30,
+    "jingfang": 22,
+    "materia-medica": 30,
+    "acupuncture": 6,
+    "bianque-mirror": 60
+  },
+  "guide_link_coverage_en": {
+    "spacetime": 30,
+    "qihua-physiology": 30,
+    "jingfang": 22,
+    "materia-medica": 30,
+    "acupuncture": 6,
+    "bianque-mirror": 60
+  },
+  "image_url_mismatches_zh": 0,
+  "image_url_mismatches_en": 0,
+  "display_order_continuous": true,
+  "public_url_policy": "preserved via frontmatter slug",
+  "structural_issues": [],
+  "astro_build": "NOT_RUN_IN_ARTIFACT_ENVIRONMENT; run npx astro check && npx astro build in actual repository",
+  "language": "en",
+  "article_count": 178,
+  "language_count": 178,
+  "unique_translation_keys": 178,
+  "unique_slugs": 178,
+  "numberless_filenames": 178,
+  "english_suffix_count": 178,
+  "clean_titles": 178,
+  "legacy_numbered_files_to_delete": 178,
+  "domain_hubs_updated": 6,
+  "english_research_index_updated": true,
+  "i18n_ready_article_paths": 178,
+  "guide_source": "English translations of the six Chinese guides from 六篇導文.docx"
+}

@@ -44,3 +44,25 @@ body {
 @media (max-width: 72rem) { .cosmos-header-nav a:nth-child(3), .cosmos-header-nav a:nth-child(4), .cosmos-header-nav a:nth-child(5) { display:none; } }
 @media (max-width: 50rem) { .cosmos-grid { grid-template-columns:1fr; } .cosmos-header-nav { display:none; } }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior:auto !important; transition:none !important; } }
+
+/* Expandable domain guide: three-line preview + native details disclosure. */
+.cosmos-guide-preview {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  margin: .8rem 0;
+  color: var(--sl-color-gray-2);
+}
+.cosmos-guide-details {
+  margin: .85rem 0 1.75rem;
+  border: 1px solid var(--cosmos-line);
+  border-radius: 14px;
+  padding: .75rem 1rem;
+  background: color-mix(in srgb,var(--sl-color-bg-nav) 82%,transparent);
+}
+.cosmos-guide-details > summary {
+  cursor: pointer;
+  font-weight: 650;
+  color: var(--sl-color-accent-high);
+}
