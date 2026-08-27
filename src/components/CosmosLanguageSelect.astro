@@ -1,0 +1,22 @@
+---
+import { isEnglishReady } from '../data/i18n-status';
+const raw = Astro.url.pathname || '/';
+const isEn = raw === '/en' || raw.startsWith('/en/');
+let zhPath = raw;
+if (isEn) {
+  zhPath = raw.replace(/^\/en(?=\/|$)/, '') || '/';
+}
+if (raw.startsWith('/en/coming-soon')) {
+  const from = Astro.url.searchParams.get('from');
+  if (from && from.startsWith('/')) zhPath = from;
+}
+const normalizedZh = zhPath.length > 1 && !zhPath.endsWith('/') ? `${zhPath}/` : zhPath;
+const enHref = isEnglishReady(normalizedZh)
+  ? (normalizedZh === '/' ? '/en/' : `/en${normalizedZh}`)
+  : `/en/coming-soon/?from=${encodeURIComponent(normalizedZh)}`;
+---
+<nav class="cosmos-language" aria-label="Language / 語言">
+  <a href={zhPath} aria-current={!isEn ? 'page' : undefined}>中文</a>
+  <span aria-hidden="true">|</span>
+  <a href={enHref} aria-current={isEn && !raw.startsWith('/en/coming-soon') ? 'page' : undefined}>EN</a>
+</nav>

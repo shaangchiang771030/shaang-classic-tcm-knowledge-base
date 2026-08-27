@@ -1,4 +1,4 @@
-// @ts-check
+﻿// @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import keystatic from '@keystatic/astro';
@@ -6,60 +6,49 @@ import react from '@astrojs/react';
 import AutoImport from 'astro-auto-import';
 import vercel from '@astrojs/vercel/serverless';
 
-// https://astro.build/config
 export default defineConfig({
   site: 'https://cosmosorder.org',
   integrations: [
     starlight({
-      title: 'Keystatic Starlight',
+      title: 'COSMOS ORDER｜天人之學',
       logo: {
         light: './src/assets/light-logo.svg',
         dark: './src/assets/dark-logo.svg',
         replacesTitle: true,
       },
-      social: {
-        github: 'https://github.com/jordangeizer/starlight-keystatic'
+      defaultLocale: 'root',
+      locales: {
+        root: { label: '中文', lang: 'zh-TW' },
+        en: { label: 'English', lang: 'en' },
       },
-      /* 
-        The server needs to be manually restarted whenever 
-        the sidebarData below is changed, since nothing 
-        on this file is changing.
-
-        Is there a way to "watch" a specific file for 
-        change and trigger a server restart?
-      */
-
-
+      customCss: ['./src/styles/cosmos-order.css'],
+      components: {
+        SocialIcons: './src/components/HeaderActions.astro',
+        LanguageSelect: './src/components/CosmosLanguageSelect.astro',
+      },
+      head: [
+        { tag: 'meta', attrs: { name: 'theme-color', content: '#0a0e14' } },
+        { tag: 'script', attrs: { defer: true, src: '/_vercel/insights/script.js' } },
+      ],
       sidebar: [
-  { label: 'Overview', link: '/overview' },
-  {
-    label: '天人之學：時空篇',
-    autogenerate: { directory: 'concept' },
-  },
-  {
-    label: '天人之學：氣化生理篇',
-    autogenerate: { directory: 'qihua_physiology_concept' },
-  },
-  {
-    label: '天人之學：經方篇',
-    autogenerate: { directory: 'jingfang_concept' },
-  },
-  {
-    label: '天人之學：藥物篇',
-    autogenerate: { directory: 'drug_concept' },
-  },
-  {
-    label: '天人之學：針灸篇',
-    autogenerate: { directory: 'acupuncture_concept' },
-  },
-  {
-  label: '天人之學：扁鵲鏡經篇',
-  autogenerate: { directory: 'Mirror_Classic _of_Bian_Que' },
-  },
-
-],
-
-    }), // 👈 關鍵修正！把原本漏掉的 }) 和逗號補回來，完美關閉 starlight 設定
+        { label: '首頁', link: '/' },
+        { label: '研究領域', link: '/research/' },
+        { label: '開始閱讀', link: '/start-here/' },
+        { label: '關於', link: '/about/' },
+        { label: '食療報告', link: '/food-report/' },
+        {
+          label: '研究領域',
+          items: [
+            { label: '時空篇', link: '/research/spacetime/' },
+            { label: '氣化生理篇', link: '/research/qihua-physiology/' },
+            { label: '經方篇', link: '/research/jingfang/' },
+            { label: '藥物篇', link: '/research/materia-medica/' },
+            { label: '針灸篇', link: '/research/acupuncture/' },
+            { label: '扁鵲鏡經篇', link: '/research/bianque-mirror/' },
+          ],
+        },
+      ],
+    }),
     keystatic(),
     react(),
     AutoImport({
