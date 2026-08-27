@@ -1,0 +1,46 @@
+/* Cosmos Order — WBS 7 visual foundation
+   Wave & Field / dark-first / no animation. */
+:root {
+  --sl-content-width: 52rem;
+  --cosmos-radius: 18px;
+  --cosmos-line: color-mix(in srgb, var(--sl-color-gray-5) 72%, transparent);
+}
+:root[data-theme='dark'] {
+  --sl-color-bg: #0a0e14;
+  --sl-color-bg-nav: #0d121a;
+  --sl-color-bg-sidebar: #0c1118;
+  --sl-color-accent-low: #102b35;
+  --sl-color-accent: #62c6c7;
+  --sl-color-accent-high: #c5f3ea;
+}
+body {
+  background-image:
+    radial-gradient(circle at 72% 8%, color-mix(in srgb, var(--sl-color-accent) 9%, transparent) 0, transparent 31rem),
+    linear-gradient(180deg, color-mix(in srgb, var(--sl-color-bg) 96%, transparent), var(--sl-color-bg));
+}
+.cosmos-header-nav { display:flex; gap:.9rem; align-items:center; white-space:nowrap; font-size:.84rem; }
+.cosmos-header-nav a { color:var(--sl-color-gray-2); text-decoration:none; }
+.cosmos-header-nav a:hover { color:var(--sl-color-white); }
+.cosmos-language { display:flex; gap:.35rem; align-items:center; font-size:.8rem; white-space:nowrap; }
+.cosmos-language a { text-decoration:none; color:var(--sl-color-gray-3); }
+.cosmos-language a[aria-current='page'] { color:var(--sl-color-accent-high); font-weight:650; }
+.cosmos-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; margin:1.4rem 0 2.4rem; }
+.cosmos-card { display:block; border:1px solid var(--cosmos-line); border-radius:var(--cosmos-radius); padding:1.15rem; text-decoration:none; background:color-mix(in srgb,var(--sl-color-bg-nav) 90%,transparent); }
+.cosmos-card:hover { border-color:var(--sl-color-accent); transform:translateY(-1px); }
+.cosmos-card strong { display:block; color:var(--sl-color-white); margin-bottom:.35rem; }
+.cosmos-card span { display:block; color:var(--sl-color-gray-2); font-size:.9rem; line-height:1.55; }
+.cosmos-kicker { letter-spacing:.13em; text-transform:uppercase; color:var(--sl-color-accent-high); font-size:.72rem; font-weight:700; }
+.cosmos-curve { border-left:2px solid var(--sl-color-accent); padding:.7rem 1rem; background:color-mix(in srgb,var(--sl-color-accent-low) 45%,transparent); border-radius:0 12px 12px 0; }
+.cosmos-stage { margin:2rem 0; padding-top:.5rem; }
+.cosmos-level { display:inline-block; font-size:.72rem; padding:.1rem .45rem; border:1px solid var(--cosmos-line); border-radius:999px; margin-right:.35rem; color:var(--sl-color-gray-2); }
+.cosmos-article-next { border-top:1px solid var(--cosmos-line); margin-top:2.5rem; padding-top:1.25rem; }
+.cosmos-back-guide { font-weight:650; text-decoration:none; }
+.cosmos-related { margin-top:1.25rem; }
+.cosmos-related ul { margin:.5rem 0 0; padding-left:1.2rem; }
+.right-sidebar { opacity:.82; }
+.sl-markdown-content figure img, .sl-markdown-content img { max-width:100%; height:auto; }
+.hero { border-bottom:1px solid var(--cosmos-line); padding-bottom:2rem; }
+.hero .tagline { max-width:48rem; }
+@media (max-width: 72rem) { .cosmos-header-nav a:nth-child(3), .cosmos-header-nav a:nth-child(4), .cosmos-header-nav a:nth-child(5) { display:none; } }
+@media (max-width: 50rem) { .cosmos-grid { grid-template-columns:1fr; } .cosmos-header-nav { display:none; } }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior:auto !important; transition:none !important; } }

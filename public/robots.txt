@@ -1,0 +1,12 @@
+# Cosmos Order crawler policy
+# Search/citation access is allowed; OpenAI training crawler is opted out.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://cosmosorder.org/sitemap-index.xml
