@@ -206,7 +206,20 @@ export const ENGLISH_EXTRA_READY_PATHS = new Set([
 
 export function normalizeContentPath(path: string) {
   if (!path) return '/';
-  const withLeading = path.startsWith('/') ? path : `/${path}`;
+
+  // Astro.url.pathname keeps non-ASCII path segments percent-encoded.
+  // Our availability registry stores canonical Unicode slugs, so decode
+  // the pathname before doing exact Set lookups. decodeURI is used instead
+  // of decodeURIComponent so reserved path separators remain untouched.
+  let decoded = path;
+  try {
+    decoded = decodeURI(path);
+  } catch {
+    // Malformed percent-encoding should never break navigation.
+    decoded = path;
+  }
+
+  const withLeading = decoded.startsWith('/') ? decoded : `/${decoded}`;
   return withLeading.length > 1 && !withLeading.endsWith('/') ? `${withLeading}/` : withLeading;
 }
 
