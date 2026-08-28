@@ -30,7 +30,6 @@ export default defineConfig({
       },
       head: [
         { tag: 'meta', attrs: { name: 'theme-color', content: '#0a0e14' } },
-        { tag: 'script', attrs: { defer: true, src: '/_vercel/insights/script.js' } },
       ],
       sidebar: [
         { label: '首頁', link: '/' },

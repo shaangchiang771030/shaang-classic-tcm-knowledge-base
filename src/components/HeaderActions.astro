@@ -1,4 +1,6 @@
 ---
+import Analytics from '@vercel/analytics/astro';
+
 type LocaleKey = 'zh-tw' | 'zh-cn' | 'en' | 'ja';
 
 const p = Astro.url.pathname || '/';
@@ -61,3 +63,6 @@ const items = [
 <nav class="cosmos-header-nav" aria-label={labels.aria}>
   {items.map(([label, href]) => <a href={href}>{label}</a>)}
 </nav>
+
+<!-- Vercel Web Analytics: one global instrumentation path. -->
+<Analytics />
