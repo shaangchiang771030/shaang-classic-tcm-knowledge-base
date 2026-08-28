@@ -1,0 +1,57 @@
+{
+  "traditional_master_count": 30,
+  "locales": {
+    "en": {
+      "article_count": 30,
+      "language_correct": 30,
+      "filename_suffix_correct": 30,
+      "unique_translation_keys": 30,
+      "keys_match_traditional_master": true,
+      "unique_slugs": 30,
+      "slug_prefix_correct": 30,
+      "nonempty_bodies": 30,
+      "numbered_h1_in_body": 0,
+      "flower_image_reference_count": 1,
+      "flower_image_translation_keys": [
+        "qihua-physiology-029"
+      ]
+    },
+    "zh-cn": {
+      "article_count": 30,
+      "language_correct": 30,
+      "filename_suffix_correct": 30,
+      "unique_translation_keys": 30,
+      "keys_match_traditional_master": true,
+      "unique_slugs": 30,
+      "slug_prefix_correct": 30,
+      "nonempty_bodies": 30,
+      "numbered_h1_in_body": 0,
+      "flower_image_reference_count": 1,
+      "flower_image_translation_keys": [
+        "qihua-physiology-029"
+      ]
+    },
+    "ja": {
+      "article_count": 30,
+      "language_correct": 30,
+      "filename_suffix_correct": 30,
+      "unique_translation_keys": 30,
+      "keys_match_traditional_master": true,
+      "unique_slugs": 30,
+      "slug_prefix_correct": 30,
+      "nonempty_bodies": 30,
+      "numbered_h1_in_body": 0,
+      "flower_image_reference_count": 1,
+      "flower_image_translation_keys": [
+        "qihua-physiology-029"
+      ],
+      "articles_with_japanese_kana": 30
+    }
+  },
+  "shared_image": {
+    "repo_path": "public/images/qihua_physiology/生命之花.png",
+    "byte_identical_to_uploaded_image": true,
+    "sha256": "23f3b0f796626641930b2095df7ce5c1d2cbdabbb1bbe53b7cee6ce6b7dcd396"
+  },
+  "overall_status": "PASS"
+}

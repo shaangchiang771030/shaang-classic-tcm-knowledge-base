@@ -1,0 +1,91 @@
+﻿locale,translationKey,guideOrder,localizedTitle,localizedSlug,repoPath
+en,qihua-physiology-001,10,Understanding Principles as a Physician: General Framework of Heaven-Human Qi Transformation,en/qihua_physiology_concept/01-醫者明理與天人氣化總綱,src/content/docs/en/qihua_physiology_concept/醫者明理與天人氣化總綱_英文.md
+en,qihua-physiology-002,20,"One Qi, Yin-Yang, Clear and Turbid, and the Pivot of Central Qi",en/qihua_physiology_concept/02-一氣陰陽清濁與中氣樞軸,src/content/docs/en/qihua_physiology_concept/一氣陰陽清濁與中氣樞軸_英文.md
+en,qihua-physiology-003,30,"Four Images, Five Phases, and the Rhythm of Spring, Summer, Autumn, and Winter",en/qihua_physiology_concept/03-四象五行與春夏秋冬節律,src/content/docs/en/qihua_physiology_concept/四象五行與春夏秋冬節律_英文.md
+en,qihua-physiology-004,40,Spleen-Stomach Central Earth and the Generation of the Five Phases in the Body,en/qihua_physiology_concept/04-脾胃中土與人體五行生成,src/content/docs/en/qihua_physiology_concept/脾胃中土與人體五行生成_英文.md
+en,qihua-physiology-005,50,Diagrammatic Exploration of Origins: A General Map of Heaven-Earth-Human Qi Transformation,en/qihua_physiology_concept/05-探源圖解與天地人氣化總圖,src/content/docs/en/qihua_physiology_concept/探源圖解與天地人氣化總圖_英文.md
+en,qihua-physiology-007,60,"Signs of Water and Fire and the Pathways of Up, Down, Left, and Right",en/qihua_physiology_concept/07-水火徵兆與上下左右道路,src/content/docs/en/qihua_physiology_concept/水火徵兆與上下左右道路_英文.md
+en,qihua-physiology-008,70,"Generation, Growth, Gathering, Storage, and the Emotional Rhythms of the Five Zang",en/qihua_physiology_concept/08-生長收藏與五臟情志節律,src/content/docs/en/qihua_physiology_concept/生長收藏與五臟情志節律_英文.md
+en,qihua-physiology-009,80,Temporal Governance of the Six Qi and Annual Climatic Segmentation,en/qihua_physiology_concept/09-六氣主時與年度氣候分段,src/content/docs/en/qihua_physiology_concept/六氣主時與年度氣候分段_英文.md
+en,qihua-physiology-010,90,"Sitian, Zaiquan, and the Climate of the Upper and Lower Halves of the Year",en/qihua_physiology_concept/10-司天在泉與上下半年氣候,src/content/docs/en/qihua_physiology_concept/司天在泉與上下半年氣候_英文.md
+en,qihua-physiology-011,100,"Tianfu, Suihui, Taiyi Tianfu, and the Superposition of Movement and Qi",en/qihua_physiology_concept/11-天符歲會太乙天符與運氣疊加,src/content/docs/en/qihua_physiology_concept/天符歲會太乙天符與運氣疊加_英文.md
+en,qihua-physiology-012,110,The Beginning of Human Life and the Formation of Ancestral Qi,en/qihua_physiology_concept/12-人生之始與祖氣成形,src/content/docs/en/qihua_physiology_concept/人生之始與祖氣成形_英文.md
+en,qihua-physiology-013,120,General Theory of the Functional Network of the Five Zang and Six Fu,en/qihua_physiology_concept/13-五臟六腑功能網路總論,src/content/docs/en/qihua_physiology_concept/五臟六腑功能網路總論_英文.md
+en,qihua-physiology-016,130,"Spleen and Stomach: Central Transportation, Transformation, and Distribution from the Great Granary",en/qihua_physiology_concept/16-脾胃中央運化與太倉輸布,src/content/docs/en/qihua_physiology_concept/脾胃中央運化與太倉輸布_英文.md
+en,qihua-physiology-015,140,"Liver and Gallbladder Wind-Wood: Planning, Upright Judgment, and Decision",en/qihua_physiology_concept/15-肝膽風木謀慮與中正決斷,src/content/docs/en/qihua_physiology_concept/肝膽風木謀慮與中正決斷_英文.md
+en,qihua-physiology-014,150,"Heart and Small Intestine: Sovereign Fire, Spirit, Transformation of Matter, and Blood Generation",en/qihua_physiology_concept/14-心與小腸君火神明與化物生血,src/content/docs/en/qihua_physiology_concept/心與小腸君火神明與化物生血_英文.md
+en,qihua-physiology-017,160,"Lung and Large Intestine: Regulation, Diffusion-Descent, and Conduction",en/qihua_physiology_concept/17-肺大腸制節宣降與傳導,src/content/docs/en/qihua_physiology_concept/肺大腸制節宣降與傳導_英文.md
+en,qihua-physiology-018,170,"Kidney and Bladder: Water Storage, Fluids, and the Entry-Exit of Qi Transformation",en/qihua_physiology_concept/18-腎膀胱水藏津液與氣化出入,src/content/docs/en/qihua_physiology_concept/腎膀胱水藏津液與氣化出入_英文.md
+en,qihua-physiology-019,180,"Pericardium and Sanjiao: Ministerial Fire, the Envoy, and the Waterway Membrane Network",en/qihua_physiology_concept/19-心包三焦相火臣使與水道膜網,src/content/docs/en/qihua_physiology_concept/心包三焦相火臣使與水道膜網_英文.md
+en,qihua-physiology-020,190,"Zang-Fu Location, Form, and Internal-External Networking",en/qihua_physiology_concept/20-臟腑部位形象與內外連網,src/content/docs/en/qihua_physiology_concept/臟腑部位形象與內外連網_英文.md
+en,qihua-physiology-021,200,The Twelve Channels Intersecting in an Endless Ring,en/qihua_physiology_concept/21-十二經相交與如環無端,src/content/docs/en/qihua_physiology_concept/十二經相交與如環無端_英文.md
+en,qihua-physiology-022,210,"Chong, Ren, Du, and Dai: The Meeting of Earlier and Later Heaven",en/qihua_physiology_concept/22-衝任督帶與先後天交會,src/content/docs/en/qihua_physiology_concept/衝任督帶與先後天交會_英文.md
+en,qihua-physiology-023,220,Explaining the Six Channels: Twelve Channels Governed by the Six Qi,en/qihua_physiology_concept/23-六經解與十二經由六氣統攝,src/content/docs/en/qihua_physiology_concept/六經解與十二經由六氣統攝_英文.md
+en,qihua-physiology-029,230,"Opening, Closing, and Pivoting of the Six Channels: A Key to Pattern Examination",en/qihua_physiology_concept/29-六經開闔樞與審證大關鍵,src/content/docs/en/qihua_physiology_concept/六經開闔樞與審證大關鍵_英文.md
+en,qihua-physiology-024,240,"Explaining the Six Qi: Temporal Governance, Transformation, and Rise and Decline of Channel Qi",en/qihua_physiology_concept/24-六氣解與主令化氣盛衰,src/content/docs/en/qihua_physiology_concept/六氣解與主令化氣盛衰_英文.md
+en,qihua-physiology-025,250,Nutritive Qi Circulation: Fifty Circuits Through the Vessels Day and Night,en/qihua_physiology_concept/25-營氣運行與脈中日夜五十周,src/content/docs/en/qihua_physiology_concept/營氣運行與脈中日夜五十周_英文.md
+en,qihua-physiology-026,260,Defensive Qi Entry and Exit: Wake-Sleep and Protective Rhythms,en/qihua_physiology_concept/26-衛氣出入與寤寐防衛節律,src/content/docs/en/qihua_physiology_concept/衛氣出入與寤寐防衛節律_英文.md
+en,qihua-physiology-027,270,Tiangui in Women and Men and the Long Cycle of Life,en/qihua_physiology_concept/27-男女天癸與生命長周期,src/content/docs/en/qihua_physiology_concept/男女天癸與生命長周期_英文.md
+en,qihua-physiology-028,280,"General Theory of Blood, Qi, Essence, Spirit, and Coordinated Health Preservation",en/qihua_physiology_concept/28-血氣精神與養生協調總論,src/content/docs/en/qihua_physiology_concept/血氣精神與養生協調總論_英文.md
+en,qihua-physiology-006,290,Yin-Yang Transformation and Treating Disease by Seeking the Root,en/qihua_physiology_concept/06-陰陽變化與治病求本,src/content/docs/en/qihua_physiology_concept/陰陽變化與治病求本_英文.md
+en,qihua-physiology-030,300,"Root, Manifestation, and Central Qi: Integrating Externally Contracted Pathomechanisms",en/qihua_physiology_concept/30-本標中氣與外感病機整合,src/content/docs/en/qihua_physiology_concept/本標中氣與外感病機整合_英文.md
+zh-cn,qihua-physiology-001,10,医者明理与天人气化总纲,zh-cn/qihua_physiology_concept/01-醫者明理與天人氣化總綱,src/content/docs/zh-cn/qihua_physiology_concept/医者明理与天人气化总纲_简体.md
+zh-cn,qihua-physiology-002,20,一气阴阳清浊与中气枢轴,zh-cn/qihua_physiology_concept/02-一氣陰陽清濁與中氣樞軸,src/content/docs/zh-cn/qihua_physiology_concept/一气阴阳清浊与中气枢轴_简体.md
+zh-cn,qihua-physiology-003,30,四象五行与春夏秋冬节律,zh-cn/qihua_physiology_concept/03-四象五行與春夏秋冬節律,src/content/docs/zh-cn/qihua_physiology_concept/四象五行与春夏秋冬节律_简体.md
+zh-cn,qihua-physiology-004,40,脾胃中土与人体五行生成,zh-cn/qihua_physiology_concept/04-脾胃中土與人體五行生成,src/content/docs/zh-cn/qihua_physiology_concept/脾胃中土与人体五行生成_简体.md
+zh-cn,qihua-physiology-005,50,探源图解与天地人气化总图,zh-cn/qihua_physiology_concept/05-探源圖解與天地人氣化總圖,src/content/docs/zh-cn/qihua_physiology_concept/探源图解与天地人气化总图_简体.md
+zh-cn,qihua-physiology-007,60,水火征兆与上下左右道路,zh-cn/qihua_physiology_concept/07-水火徵兆與上下左右道路,src/content/docs/zh-cn/qihua_physiology_concept/水火征兆与上下左右道路_简体.md
+zh-cn,qihua-physiology-008,70,生长收藏与五脏情志节律,zh-cn/qihua_physiology_concept/08-生長收藏與五臟情志節律,src/content/docs/zh-cn/qihua_physiology_concept/生长收藏与五脏情志节律_简体.md
+zh-cn,qihua-physiology-009,80,六气主时与年度气候分段,zh-cn/qihua_physiology_concept/09-六氣主時與年度氣候分段,src/content/docs/zh-cn/qihua_physiology_concept/六气主时与年度气候分段_简体.md
+zh-cn,qihua-physiology-010,90,司天在泉与上下半年气候,zh-cn/qihua_physiology_concept/10-司天在泉與上下半年氣候,src/content/docs/zh-cn/qihua_physiology_concept/司天在泉与上下半年气候_简体.md
+zh-cn,qihua-physiology-011,100,天符岁会太乙天符与运气叠加,zh-cn/qihua_physiology_concept/11-天符歲會太乙天符與運氣疊加,src/content/docs/zh-cn/qihua_physiology_concept/天符岁会太乙天符与运气叠加_简体.md
+zh-cn,qihua-physiology-012,110,人生之始与祖气成形,zh-cn/qihua_physiology_concept/12-人生之始與祖氣成形,src/content/docs/zh-cn/qihua_physiology_concept/人生之始与祖气成形_简体.md
+zh-cn,qihua-physiology-013,120,五脏六腑功能网路总论,zh-cn/qihua_physiology_concept/13-五臟六腑功能網路總論,src/content/docs/zh-cn/qihua_physiology_concept/五脏六腑功能网路总论_简体.md
+zh-cn,qihua-physiology-016,130,脾胃中央运化与太仓输布,zh-cn/qihua_physiology_concept/16-脾胃中央運化與太倉輸布,src/content/docs/zh-cn/qihua_physiology_concept/脾胃中央运化与太仓输布_简体.md
+zh-cn,qihua-physiology-015,140,肝胆风木谋虑与中正决断,zh-cn/qihua_physiology_concept/15-肝膽風木謀慮與中正決斷,src/content/docs/zh-cn/qihua_physiology_concept/肝胆风木谋虑与中正决断_简体.md
+zh-cn,qihua-physiology-014,150,心与小肠君火神明与化物生血,zh-cn/qihua_physiology_concept/14-心與小腸君火神明與化物生血,src/content/docs/zh-cn/qihua_physiology_concept/心与小肠君火神明与化物生血_简体.md
+zh-cn,qihua-physiology-017,160,肺大肠制节宣降与传导,zh-cn/qihua_physiology_concept/17-肺大腸制節宣降與傳導,src/content/docs/zh-cn/qihua_physiology_concept/肺大肠制节宣降与传导_简体.md
+zh-cn,qihua-physiology-018,170,肾膀胱水藏津液与气化出入,zh-cn/qihua_physiology_concept/18-腎膀胱水藏津液與氣化出入,src/content/docs/zh-cn/qihua_physiology_concept/肾膀胱水藏津液与气化出入_简体.md
+zh-cn,qihua-physiology-019,180,心包三焦相火臣使与水道膜网,zh-cn/qihua_physiology_concept/19-心包三焦相火臣使與水道膜網,src/content/docs/zh-cn/qihua_physiology_concept/心包三焦相火臣使与水道膜网_简体.md
+zh-cn,qihua-physiology-020,190,脏腑部位形象与内外连网,zh-cn/qihua_physiology_concept/20-臟腑部位形象與內外連網,src/content/docs/zh-cn/qihua_physiology_concept/脏腑部位形象与内外连网_简体.md
+zh-cn,qihua-physiology-021,200,十二经相交与如环无端,zh-cn/qihua_physiology_concept/21-十二經相交與如環無端,src/content/docs/zh-cn/qihua_physiology_concept/十二经相交与如环无端_简体.md
+zh-cn,qihua-physiology-022,210,冲任督带与先后天交会,zh-cn/qihua_physiology_concept/22-衝任督帶與先後天交會,src/content/docs/zh-cn/qihua_physiology_concept/冲任督带与先后天交会_简体.md
+zh-cn,qihua-physiology-023,220,六经解与十二经由六气统摄,zh-cn/qihua_physiology_concept/23-六經解與十二經由六氣統攝,src/content/docs/zh-cn/qihua_physiology_concept/六经解与十二经由六气统摄_简体.md
+zh-cn,qihua-physiology-029,230,六经开阖枢与审证大关键,zh-cn/qihua_physiology_concept/29-六經開闔樞與審證大關鍵,src/content/docs/zh-cn/qihua_physiology_concept/六经开阖枢与审证大关键_简体.md
+zh-cn,qihua-physiology-024,240,六气解与主令化气盛衰,zh-cn/qihua_physiology_concept/24-六氣解與主令化氣盛衰,src/content/docs/zh-cn/qihua_physiology_concept/六气解与主令化气盛衰_简体.md
+zh-cn,qihua-physiology-025,250,营气运行与脉中日夜五十周,zh-cn/qihua_physiology_concept/25-營氣運行與脈中日夜五十周,src/content/docs/zh-cn/qihua_physiology_concept/营气运行与脉中日夜五十周_简体.md
+zh-cn,qihua-physiology-026,260,卫气出入与寤寐防卫节律,zh-cn/qihua_physiology_concept/26-衛氣出入與寤寐防衛節律,src/content/docs/zh-cn/qihua_physiology_concept/卫气出入与寤寐防卫节律_简体.md
+zh-cn,qihua-physiology-027,270,男女天癸与生命长周期,zh-cn/qihua_physiology_concept/27-男女天癸與生命長周期,src/content/docs/zh-cn/qihua_physiology_concept/男女天癸与生命长周期_简体.md
+zh-cn,qihua-physiology-028,280,血气精神与养生协调总论,zh-cn/qihua_physiology_concept/28-血氣精神與養生協調總論,src/content/docs/zh-cn/qihua_physiology_concept/血气精神与养生协调总论_简体.md
+zh-cn,qihua-physiology-006,290,阴阳变化与治病求本,zh-cn/qihua_physiology_concept/06-陰陽變化與治病求本,src/content/docs/zh-cn/qihua_physiology_concept/阴阳变化与治病求本_简体.md
+zh-cn,qihua-physiology-030,300,本标中气与外感病机整合,zh-cn/qihua_physiology_concept/30-本標中氣與外感病機整合,src/content/docs/zh-cn/qihua_physiology_concept/本标中气与外感病机整合_简体.md
+ja,qihua-physiology-001,10,医者の理法理解と天人の気化総綱,ja/qihua_physiology_concept/01-醫者明理與天人氣化總綱,src/content/docs/ja/qihua_physiology_concept/醫者明理與天人氣化總綱_日文.md
+ja,qihua-physiology-002,20,一気・陰陽・清濁と中気の枢軸,ja/qihua_physiology_concept/02-一氣陰陽清濁與中氣樞軸,src/content/docs/ja/qihua_physiology_concept/一氣陰陽清濁與中氣樞軸_日文.md
+ja,qihua-physiology-003,30,四象・五行と春夏秋冬のリズム,ja/qihua_physiology_concept/03-四象五行與春夏秋冬節律,src/content/docs/ja/qihua_physiology_concept/四象五行與春夏秋冬節律_日文.md
+ja,qihua-physiology-004,40,脾胃の中土と人体五行の生成,ja/qihua_physiology_concept/04-脾胃中土與人體五行生成,src/content/docs/ja/qihua_physiology_concept/脾胃中土與人體五行生成_日文.md
+ja,qihua-physiology-005,50,探源図解と天地人の気化総図,ja/qihua_physiology_concept/05-探源圖解與天地人氣化總圖,src/content/docs/ja/qihua_physiology_concept/探源圖解與天地人氣化總圖_日文.md
+ja,qihua-physiology-007,60,水火の徴候と上下左右の経路,ja/qihua_physiology_concept/07-水火徵兆與上下左右道路,src/content/docs/ja/qihua_physiology_concept/水火徵兆與上下左右道路_日文.md
+ja,qihua-physiology-008,70,生長化収蔵と五臓・情志のリズム,ja/qihua_physiology_concept/08-生長收藏與五臟情志節律,src/content/docs/ja/qihua_physiology_concept/生長收藏與五臟情志節律_日文.md
+ja,qihua-physiology-009,80,六気主時と年間気候の分節,ja/qihua_physiology_concept/09-六氣主時與年度氣候分段,src/content/docs/ja/qihua_physiology_concept/六氣主時與年度氣候分段_日文.md
+ja,qihua-physiology-010,90,司天・在泉と上半期・下半期の気候,ja/qihua_physiology_concept/10-司天在泉與上下半年氣候,src/content/docs/ja/qihua_physiology_concept/司天在泉與上下半年氣候_日文.md
+ja,qihua-physiology-011,100,天符・歳会・太乙天符と運気の重ね合わせ,ja/qihua_physiology_concept/11-天符歲會太乙天符與運氣疊加,src/content/docs/ja/qihua_physiology_concept/天符歲會太乙天符與運氣疊加_日文.md
+ja,qihua-physiology-012,110,人生の始まりと祖気の形成,ja/qihua_physiology_concept/12-人生之始與祖氣成形,src/content/docs/ja/qihua_physiology_concept/人生之始與祖氣成形_日文.md
+ja,qihua-physiology-013,120,五臓六腑の機能ネットワーク総論,ja/qihua_physiology_concept/13-五臟六腑功能網路總論,src/content/docs/ja/qihua_physiology_concept/五臟六腑功能網路總論_日文.md
+ja,qihua-physiology-016,130,脾胃中央の運化と太倉の輸布,ja/qihua_physiology_concept/16-脾胃中央運化與太倉輸布,src/content/docs/ja/qihua_physiology_concept/脾胃中央運化與太倉輸布_日文.md
+ja,qihua-physiology-015,140,肝胆の風木・謀慮と中正の決断,ja/qihua_physiology_concept/15-肝膽風木謀慮與中正決斷,src/content/docs/ja/qihua_physiology_concept/肝膽風木謀慮與中正決斷_日文.md
+ja,qihua-physiology-014,150,心・小腸の君火、神明と化物生血,ja/qihua_physiology_concept/14-心與小腸君火神明與化物生血,src/content/docs/ja/qihua_physiology_concept/心與小腸君火神明與化物生血_日文.md
+ja,qihua-physiology-017,160,肺・大腸の制節、宣降と伝導,ja/qihua_physiology_concept/17-肺大腸制節宣降與傳導,src/content/docs/ja/qihua_physiology_concept/肺大腸制節宣降與傳導_日文.md
+ja,qihua-physiology-018,170,腎・膀胱の水蔵、津液と気化出入,ja/qihua_physiology_concept/18-腎膀胱水藏津液與氣化出入,src/content/docs/ja/qihua_physiology_concept/腎膀胱水藏津液與氣化出入_日文.md
+ja,qihua-physiology-019,180,心包・三焦の相火、臣使と水道膜網,ja/qihua_physiology_concept/19-心包三焦相火臣使與水道膜網,src/content/docs/ja/qihua_physiology_concept/心包三焦相火臣使與水道膜網_日文.md
+ja,qihua-physiology-020,190,臓腑の部位形象と内外ネットワーク,ja/qihua_physiology_concept/20-臟腑部位形象與內外連網,src/content/docs/ja/qihua_physiology_concept/臟腑部位形象與內外連網_日文.md
+ja,qihua-physiology-021,200,十二経の交接と環のごとき循環,ja/qihua_physiology_concept/21-十二經相交與如環無端,src/content/docs/ja/qihua_physiology_concept/十二經相交與如環無端_日文.md
+ja,qihua-physiology-022,210,衝任督帯と先天・後天の交会,ja/qihua_physiology_concept/22-衝任督帶與先後天交會,src/content/docs/ja/qihua_physiology_concept/衝任督帶與先後天交會_日文.md
+ja,qihua-physiology-023,220,六経解と十二経を統べる六気,ja/qihua_physiology_concept/23-六經解與十二經由六氣統攝,src/content/docs/ja/qihua_physiology_concept/六經解與十二經由六氣統攝_日文.md
+ja,qihua-physiology-029,230,六経の開闔枢と審証の要点,ja/qihua_physiology_concept/29-六經開闔樞與審證大關鍵,src/content/docs/ja/qihua_physiology_concept/六經開闔樞與審證大關鍵_日文.md
+ja,qihua-physiology-024,240,六気解と主令・化気・盛衰,ja/qihua_physiology_concept/24-六氣解與主令化氣盛衰,src/content/docs/ja/qihua_physiology_concept/六氣解與主令化氣盛衰_日文.md
+ja,qihua-physiology-025,250,営気の運行と脈中の日夜五十周,ja/qihua_physiology_concept/25-營氣運行與脈中日夜五十周,src/content/docs/ja/qihua_physiology_concept/營氣運行與脈中日夜五十周_日文.md
+ja,qihua-physiology-026,260,衛気の出入と覚醒・睡眠・防衛リズム,ja/qihua_physiology_concept/26-衛氣出入與寤寐防衛節律,src/content/docs/ja/qihua_physiology_concept/衛氣出入與寤寐防衛節律_日文.md
+ja,qihua-physiology-027,270,男女の天癸と生命の長周期,ja/qihua_physiology_concept/27-男女天癸與生命長周期,src/content/docs/ja/qihua_physiology_concept/男女天癸與生命長周期_日文.md
+ja,qihua-physiology-028,280,血・気・精・神と養生協調の総論,ja/qihua_physiology_concept/28-血氣精神與養生協調總論,src/content/docs/ja/qihua_physiology_concept/血氣精神與養生協調總論_日文.md
+ja,qihua-physiology-006,290,陰陽変化と治病求本,ja/qihua_physiology_concept/06-陰陽變化與治病求本,src/content/docs/ja/qihua_physiology_concept/陰陽變化與治病求本_日文.md
+ja,qihua-physiology-030,300,本標中気と外感病機の統合,ja/qihua_physiology_concept/30-本標中氣與外感病機整合,src/content/docs/ja/qihua_physiology_concept/本標中氣與外感病機整合_日文.md
