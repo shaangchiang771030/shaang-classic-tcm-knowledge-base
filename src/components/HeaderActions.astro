@@ -1,16 +1,63 @@
 ---
-const p = Astro.url.pathname;
-const isEn = p === '/en' || p.startsWith('/en/');
-const prefix = isEn ? '/en' : '';
-const items = isEn
-  ? [
-      ['Home', `${prefix}/`], ['Research', `${prefix}/research/`], ['Start Here', `${prefix}/start-here/`],
-      ['About', `${prefix}/about/`], ['Food Report', `${prefix}/food-report/`],
-    ]
-  : [
-      ['首頁', '/'], ['研究領域', '/research/'], ['開始閱讀', '/start-here/'], ['關於', '/about/'], ['食療報告', '/food-report/'],
-    ];
+type LocaleKey = 'zh-tw' | 'zh-cn' | 'en' | 'ja';
+
+const p = Astro.url.pathname || '/';
+
+function getLocale(path: string): LocaleKey {
+  if (path === '/zh-cn/' || path.startsWith('/zh-cn/')) return 'zh-cn';
+  if (path === '/en/' || path.startsWith('/en/')) return 'en';
+  if (path === '/ja/' || path.startsWith('/ja/')) return 'ja';
+  return 'zh-tw';
+}
+
+const locale = getLocale(p);
+const prefix = locale === 'zh-tw' ? '' : `/${locale}`;
+
+const labels = {
+  'zh-tw': {
+    home: '首頁',
+    research: '研究領域',
+    start: '開始閱讀',
+    about: '關於',
+    food: '食療報告',
+    aria: '主要導覽',
+  },
+  'zh-cn': {
+    home: '首页',
+    research: '研究领域',
+    start: '开始阅读',
+    about: '关于',
+    food: '食疗报告',
+    aria: '主要导航',
+  },
+  en: {
+    home: 'Home',
+    research: 'Research',
+    start: 'Start Here',
+    about: 'About',
+    food: 'Food Report',
+    aria: 'Primary navigation',
+  },
+  ja: {
+    home: 'ホーム',
+    research: '研究領域',
+    start: 'はじめに',
+    about: 'このサイトについて',
+    food: '食養生レポート',
+    aria: 'メインナビゲーション',
+  },
+}[locale];
+
+const route = (path: string) => path === '/' ? `${prefix}/` : `${prefix}${path}`;
+
+const items = [
+  [labels.home, route('/')],
+  [labels.research, route('/research/')],
+  [labels.start, route('/start-here/')],
+  [labels.about, route('/about/')],
+  [labels.food, route('/food-report/')],
+];
 ---
-<nav class="cosmos-header-nav" aria-label={isEn ? 'Primary navigation' : '主要導覽'}>
+<nav class="cosmos-header-nav" aria-label={labels.aria}>
   {items.map(([label, href]) => <a href={href}>{label}</a>)}
 </nav>

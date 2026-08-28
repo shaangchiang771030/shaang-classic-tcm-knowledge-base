@@ -1,32 +1,35 @@
-# Cosmos Order｜氣化生理篇重寫：EN / 简体 / 日本語 Repo Overlay
+# Cosmos Order｜四語結構頁 + About + 同篇文章 Router Patch v1
 
-這是一個可直接解壓到 repository root 的 overlay。
+本 ZIP 是 repo-root overlay，可直接解壓到 repository root。
 
-## 內容
+## 這次解決
 
-- English：30 篇新版氣化生理文章
-- 简体中文：30 篇新版氣化生理文章
-- 日本語：30 篇新版氣化生理文章
-- 共用生命之花 PNG（與已部署繁體版相同）
-- File Map + Final Validation Report
+1. 更新新版繁體 About，並建立简体／English／日本語 About。
+2. 四語切換器在 178 篇文章中保持「同一篇文章 ↔ 同一篇文章」。
+3. 左上主導覽會依目前語言顯示並連到同語言：
+   - 繁體：首頁／研究領域／開始閱讀／關於／食療報告
+   - 简体：首页／研究领域／开始阅读／关于／食疗报告
+   - EN：Home／Research／Start Here／About／Food Report
+   - 日文：ホーム／研究領域／はじめに／このサイトについて／食養生レポート
+4. 新增完整 `/zh-cn/` 與 `/ja/` 首頁。
+5. 補齊 `/en/`、`/zh-cn/`、`/ja/` 的 Research／Start Here／About／Food Report 結構頁。
+6. `/`、`/research/`、`/start-here/`、`/about/`、`/food-report/` 現在都可四語互切，不再因硬組不存在的 route 而 404。
 
 ## 不修改
 
-- 繁體中文 30 篇
-- About
-- `astro.config.mjs`
-- 四語 Router
-- dependency / package versions
+- 任何 178 篇研究文章正文
+- 文章 slug
+- translationKey
+- Astro / Starlight / Node / Vercel dependency 版本
+- 氣化生理重寫內容
 
 ## Apply
 
-把 ZIP 直接解壓到 Repo Root，覆蓋既有三語舊正文。
-
-然後：
+解壓到 Repo Root 後：
 
 ```powershell
 npx astro check
 npx astro build
 ```
 
-兩個都 PASS 後再 commit / push。
+兩個都 PASS 後才 commit / push。
