@@ -1,11 +1,15 @@
 // Cosmos Order locale availability registry.
-// Shared 4-language coverage: 178 published research articles + 7 research landing/hub routes.
+// Shared 4-language coverage: 178 published research articles + 7 research landing/hub routes + 4 structural pages.
 // The canonical base route is the Traditional Chinese route; zh-CN / English / Japanese
 // use the same stable slug with /zh-cn, /en, or /ja prefixed.
 
 export type CosmosLocale = 'zh-tw' | 'zh-cn' | 'en' | 'ja';
 
 export const FOUR_LANGUAGE_READY_PATHS = new Set([
+  "/food-report/",
+  "/about/",
+  "/start-here/",
+  "/",
   "/research/",
   "/research/spacetime/",
   "/research/qihua-physiology/",
@@ -195,10 +199,6 @@ export const FOUR_LANGUAGE_READY_PATHS = new Set([
 
 // English also has these structural pages that are not yet present in zh-CN / Japanese.
 export const ENGLISH_EXTRA_READY_PATHS = new Set([
-  "/",
-  "/start-here/",
-  "/about/",
-  "/food-report/",
   "/research/weather-wuyun-liuqi/",
   "/research/ganzhi-food-therapy/",
   "/research/guilin-neijing/",

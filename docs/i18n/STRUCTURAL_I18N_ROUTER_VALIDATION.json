@@ -1,0 +1,19 @@
+{
+  "overlay_files_present": 16,
+  "overlay_files_expected": 16,
+  "about_variants": 4,
+  "localized_homepages_added_or_replaced": 3,
+  "localized_research_landings": 3,
+  "localized_start_here_pages": 3,
+  "localized_about_pages": 3,
+  "localized_food_report_pages": 3,
+  "four_language_ready_paths": 189,
+  "published_article_routes_in_registry": 178,
+  "research_landing_and_hub_routes_in_registry": 7,
+  "structural_four_language_routes": 5,
+  "router_transition_checks": 3024,
+  "router_transition_errors": 0,
+  "legacy_structural_placeholder_markers": [],
+  "header_has_four_locales": true,
+  "overall_status": "PASS"
+}
