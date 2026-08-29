@@ -1,0 +1,37 @@
+{
+  "article_markdown_count": 12,
+  "locale_counts": {
+    "zh": 3,
+    "zh-CN": 3,
+    "en": 3,
+    "ja": 3
+  },
+  "translation_key_groups": {
+    "weather-wuyun-liuqi-001": 4,
+    "weather-wuyun-liuqi-002": 4,
+    "weather-wuyun-liuqi-003": 4
+  },
+  "unique_physical_slugs": 12,
+  "frontmatter_errors": [],
+  "download_link_errors": [],
+  "excel_asset_count": 12,
+  "excel_locale_copies_byte_identical_per_article": [
+    true,
+    true,
+    true
+  ],
+  "hub_count": 4,
+  "weather_ready_routes": [
+    "/research/weather-wuyun-liuqi/",
+    "/weather_wuyun_liuqi_concept/01-五運六氣不是一個年份標籤-七個能量場如何一起放大易病方向/",
+    "/weather_wuyun_liuqi_concept/02-天符歲會與主客逆從不是附註-古人如何用二級規則修正運氣判讀/",
+    "/weather_wuyun_liuqi_concept/03-從木生火到火克金-五運六氣如何形成兼夾病機與下游路由/"
+  ],
+  "weather_hub_removed_from_english_extra": true,
+  "localized_research_landing_cards": {
+    "en": true,
+    "zh-cn": true,
+    "ja": true
+  },
+  "overall_status": "PASS"
+}
