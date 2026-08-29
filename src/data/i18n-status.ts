@@ -1,11 +1,15 @@
 // Cosmos Order locale availability registry.
-// Shared 4-language coverage: 178 published research articles + 7 research landing/hub routes + 4 structural pages.
+// Shared 4-language coverage: 181 published research articles + 8 research landing/hub routes + 4 structural pages.
 // The canonical base route is the Traditional Chinese route; zh-CN / English / Japanese
 // use the same stable slug with /zh-cn, /en, or /ja prefixed.
 
 export type CosmosLocale = 'zh-tw' | 'zh-cn' | 'en' | 'ja';
 
 export const FOUR_LANGUAGE_READY_PATHS = new Set([
+  "/research/weather-wuyun-liuqi/",
+  "/weather_wuyun_liuqi_concept/01-五運六氣不是一個年份標籤-七個能量場如何一起放大易病方向/",
+  "/weather_wuyun_liuqi_concept/02-天符歲會與主客逆從不是附註-古人如何用二級規則修正運氣判讀/",
+  "/weather_wuyun_liuqi_concept/03-從木生火到火克金-五運六氣如何形成兼夾病機與下游路由/",
   "/food-report/",
   "/about/",
   "/start-here/",
@@ -199,7 +203,6 @@ export const FOUR_LANGUAGE_READY_PATHS = new Set([
 
 // English also has these structural pages that are not yet present in zh-CN / Japanese.
 export const ENGLISH_EXTRA_READY_PATHS = new Set([
-  "/research/weather-wuyun-liuqi/",
   "/research/ganzhi-food-therapy/",
   "/research/guilin-neijing/",
 ]);
