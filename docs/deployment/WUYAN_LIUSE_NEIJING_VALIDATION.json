@@ -1,0 +1,46 @@
+{
+  "overall_status": "PASS",
+  "article_count": 8,
+  "article_filenames_in_reading_order": [
+    "六節藏象論篇第九.md",
+    "五藏生成篇第十.md",
+    "藏氣法時論篇第二十二.md",
+    "刺熱篇第三十二.md",
+    "咳論篇第三十八.md",
+    "風論篇第四十二.md",
+    "皮部論篇第五十六.md",
+    "六元正紀大論篇第七十一.md"
+  ],
+  "ordered_original_orders": [
+    9,
+    10,
+    22,
+    32,
+    38,
+    42,
+    56,
+    71
+  ],
+  "expected_order": [
+    9,
+    10,
+    22,
+    32,
+    38,
+    42,
+    56,
+    71
+  ],
+  "unique_translation_keys": 8,
+  "unique_slugs": 8,
+  "hub_present": true,
+  "model_map_links": 27,
+  "article_directory_links": 8,
+  "homepage_research_cards": 10,
+  "homepage_new_card_position_within_research_grid": 10,
+  "research_landing_cards": 10,
+  "research_landing_new_card_position": 10,
+  "expected_card_position": 10,
+  "expected_visual_grid_position": "(4,1) with 3 columns",
+  "errors": []
+}
