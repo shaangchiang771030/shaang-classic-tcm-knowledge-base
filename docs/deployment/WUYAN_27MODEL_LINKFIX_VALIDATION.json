@@ -1,0 +1,23 @@
+{
+  "overall_status": "PASS",
+  "canonical_concept_routes_loaded": 30,
+  "concept_link_occurrences_before": 54,
+  "unique_bad_routes_before": [
+    "/concept/15-四象時間模型（陰陽互含規律）/",
+    "/concept/21-五行互涵模型（體質與藥精細分）/",
+    "/concept/26-三陰三陽人體空間分佈模型（陰陽離合規律）/"
+  ],
+  "bad_link_occurrences_fixed": 12,
+  "replacement_counts": {
+    "/concept/15-四象時間模型（陰陽互含規律）/": 6,
+    "/concept/26-三陰三陽人體空間分佈模型（陰陽離合規律）/": 4,
+    "/concept/21-五行互涵模型（體質與藥精細分）/": 2
+  },
+  "concept_link_occurrences_after": 54,
+  "unique_bad_routes_after": [],
+  "model_rows": 27,
+  "row_link_errors_after": [],
+  "wuyan_article_links_preserved": 25,
+  "raw_html_tags": 0,
+  "inline_style_present": false
+}
