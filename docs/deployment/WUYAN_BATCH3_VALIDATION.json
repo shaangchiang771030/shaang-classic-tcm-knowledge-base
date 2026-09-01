@@ -1,0 +1,56 @@
+{
+  "overall_status": "PASS",
+  "third_batch_reviewed_sources": 7,
+  "new_articles_created": 7,
+  "existing_lingshu_articles_reindexed": 6,
+  "runtime_article_files_in_patch": 13,
+  "final_module_articles": 32,
+  "final_suwen_articles": 19,
+  "final_lingshu_articles": 13,
+  "final_lingshu_chapter_order": [
+    4,
+    5,
+    8,
+    9,
+    10,
+    20,
+    43,
+    44,
+    46,
+    47,
+    56,
+    64,
+    65
+  ],
+  "hub_total_article_links": 32,
+  "hub_lingshu_links": 13,
+  "model_links_preserved": 27,
+  "reintroduced_known_bad_routes": [],
+  "obsolete_four_image_hex_remaining_in_new_articles": {},
+  "four_image_css_changes_applied": [
+    {
+      "title": "經脈第十",
+      "changes": [
+        {
+          "class": "c-warm",
+          "old": "#7b1fa2",
+          "new": "#2e7d32"
+        },
+        {
+          "class": "c-cool",
+          "old": "#43a047",
+          "new": "#b8860b"
+        }
+      ]
+    }
+  ],
+  "third_batch_pages_explicitly_using_four_images": [
+    "邪氣藏府病形第四",
+    "本神第八",
+    "終始第九",
+    "順氣一日分為四時第四十四"
+  ],
+  "simplified_article_copies_added": 0,
+  "shared_language_policy": "No zh-CN duplicate articles added; the existing Simplified module entry continues to share the root article set.",
+  "errors": []
+}
