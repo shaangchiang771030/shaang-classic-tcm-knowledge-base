@@ -4,7 +4,8 @@ import starlight from '@astrojs/starlight';
 import keystatic from '@keystatic/astro';
 import react from '@astrojs/react';
 import AutoImport from 'astro-auto-import';
-import vercel from '@astrojs/vercel/serverless';
+
+import vercel from '@astrojs/vercel';
 
 export default defineConfig({
   site: 'https://cosmosorder.org',
@@ -72,6 +73,6 @@ export default defineConfig({
       ],
     }),
   ],
-  output: 'hybrid',
+
   adapter: vercel(),
 });
