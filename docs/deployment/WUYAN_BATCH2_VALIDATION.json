@@ -1,0 +1,52 @@
+{
+  "overall_status": "PASS",
+  "batch2_reviewed_files_received": 18,
+  "batch2_new_articles": 17,
+  "batch2_replacement_articles": 1,
+  "final_shared_traditional_articles": 25,
+  "suwen_articles": 19,
+  "lingshu_articles": 6,
+  "hub_article_links": 25,
+  "model_links": 27,
+  "swatch_png_files": 25,
+  "old_four_image_hex_remaining": {},
+  "css_mismatches": [],
+  "simplified_home_card": true,
+  "simplified_research_card": true,
+  "simplified_article_copies": 0,
+  "shared_article_policy": "zh-CN homepage/research cards link to the same root Traditional hub/articles; no duplicated zh-CN article bodies yet.",
+  "explicit_four_images_model_pages": [
+    {
+      "book": "suwen",
+      "chapter_no": 2,
+      "title": "四氣調神大論篇第二"
+    },
+    {
+      "book": "suwen",
+      "chapter_no": 3,
+      "title": "生氣通天論篇第三"
+    },
+    {
+      "book": "suwen",
+      "chapter_no": 41,
+      "title": "刺腰痛篇第四十一"
+    },
+    {
+      "book": "suwen",
+      "chapter_no": 70,
+      "title": "五常政大論篇第七十"
+    },
+    {
+      "book": "suwen",
+      "chapter_no": 71,
+      "title": "六元正紀大論篇第七十一"
+    },
+    {
+      "book": "suwen",
+      "chapter_no": 74,
+      "title": "至真要大論篇第七十四"
+    }
+  ],
+  "runtime_color_implementation": "Hex values remain embedded in each article's <style> block; WUYAN_COLOR_STANDARD_v2.csv is the canonical QA/generation reference, not a runtime lookup.",
+  "errors": []
+}
